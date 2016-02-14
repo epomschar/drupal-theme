@@ -1,0 +1,9 @@
+name: My Theme
+type: theme
+core: 8.x
+description: Theme boilerplate for drupal 8
+libraries:
+  - my_theme/global-styling
+  - my_theme/header
+  - my_theme/footer
+  - my_theme/content

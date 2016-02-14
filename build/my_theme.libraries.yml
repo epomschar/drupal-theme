@@ -1,0 +1,26 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/global.css: {}
+header:
+  version: 1.0
+  css:
+    theme:
+      css/header.css: {}
+  js:
+    js/header.js: {}
+content:
+  version: 1.0
+  css:
+    theme:
+      css/content.css: {}
+  js:
+    js/content.js: {}
+footer:
+  version: 1.0
+  css:
+    theme:
+      css/footer.css: {}
+  js:
+    js/footer.js: {}
