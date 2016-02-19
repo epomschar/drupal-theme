@@ -7,4 +7,6 @@ ADD ./development.services.yml /var/www/html/sites/development.services.yml
 
 RUN chown -R www-data:www-data /var/www/html/sites
 
+RUN usermod -u 1000 www-data
+
 VOLUME /var/www/html/
